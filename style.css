@@ -1,0 +1,57 @@
+/* Goolge fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Varialbes  */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --darkblue: hsl(218, 44%, 22%);
+}
+
+/* Default stlyes  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  background: var(--light-gray);
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.card {
+  max-width: 350px;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card > .img > img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.card > .content {
+  margin-top: 20px;
+}
+
+.card > .content > .title {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--darkblue);
+  text-align: center;
+}
+.card > .content > .text {
+  font-size: 18px;
+  color: var(--grayish-blue);
+  text-align: center;
+  padding: 15px 0px;
+}
