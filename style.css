@@ -18,10 +18,14 @@
   font-family: "Outfit", sans-serif;
 }
 
+body {
+  background: var(--light-gray);
+}
+
 .container {
   display: grid;
   place-items: center;
-  background: var(--light-gray);
+
   min-height: 100vh;
   padding: 10px;
 }
@@ -54,4 +58,10 @@
   color: var(--grayish-blue);
   text-align: center;
   padding: 15px 0px;
+}
+
+
+.attribution{
+    text-align: center;
+    padding: 10px;
 }

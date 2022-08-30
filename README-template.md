@@ -5,8 +5,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
+  - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
+
+
+
+## Overview
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/AjjlalAhmed/Frontend-Mentor---QR-code-component-solution.git)
+- Live Site URL: [Add live site URL here](https://ajjlalahmed.github.io/Frontend-Mentor---QR-code-component-solution/)
 
 ### Built with
 
