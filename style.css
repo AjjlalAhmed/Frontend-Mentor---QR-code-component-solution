@@ -18,20 +18,18 @@
   font-family: "Outfit", sans-serif;
 }
 
-body {
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: var(--light-gray);
-}
-
-.container {
-  display: grid;
-  place-items: center;
-
   min-height: 100vh;
   padding: 10px;
 }
 
 .card {
-  max-width: 375px;
+  max-width: 300px;
   background: var(--white);
   padding: 20px;
   border-radius: 20px;
@@ -48,20 +46,19 @@ body {
 }
 
 .card > .content > .title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--darkblue);
   text-align: center;
 }
 .card > .content > .text {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--grayish-blue);
   text-align: center;
   padding: 15px 0px;
 }
 
-
-.attribution{
-    text-align: center;
-    padding: 10px;
+.attribution {
+  text-align: center;
+  padding: 10px;
 }
